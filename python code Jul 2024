@@ -1,0 +1,18 @@
+print("5-2")
+print(5-2)
+sum = 5 * 10
+
+name = "Benito "
+lastname = "Juárez"
+print(name + lastname)
+
+name = "Michael "
+lastname = "Jackson"
+print(name + lastname)
+
+firstname1 = "Stevie "
+lastname1 = "Wonder"
+fullname = lastname1 + firstname1
+print(fullname)
+
+#This is a code I created for some facebook friends to learn more about python.
