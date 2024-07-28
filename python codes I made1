@@ -1,6 +1,6 @@
 #conversor de kilometros a millas
 millas = 0.621371
-kilometros = 67.89
+kilometros = 87.89
 conversor_milla = kilometros * millas
 print(conversor_milla)
 
@@ -15,13 +15,13 @@ promedio = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
 print(promedio)
 
 #Calcular el area de un circulo
-radio = 56.89
+radio = 60.89
 phi = 3.14159
 areacirculo = phi * (radio **2)
 print(areacirculo)
 
 #programa final
-largo = 198.90
-ancho = 67.57
+largo = 498.90
+ancho = 89.57
 perimetro = (largo * 2) + (ancho * 2)
 print(perimetro)
