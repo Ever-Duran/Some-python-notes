@@ -1,0 +1,98 @@
+#-------------------------------
+#CISCO exercise about Lists1
+#------------------------------
+
+#There once was a hat. The hat contained no rabbit, but a list of five numbers: 1, 2, 3, 4, and 5.
+
+#Your task is to:
+    #write a line of code that prompts the user to replace the middle number in the list with an integer number entered by the user (Step 1)
+    #write a line of code that removes the last element from the list (Step 2)
+    #write a line of code that prints the length of the existing list (Step 3).
+
+#my_code
+hat_list = [1,2,3,4,5]
+hat_list[2] = int(input("Enter a number: "))
+print(hat_list)
+
+del hat_list[-1]
+print(hat_list)
+
+
+
+
+
+
+
+#---------------------------
+#CISCO exercise about lists
+#---------------------------
+
+#Write a program that reflects these changes and lets you practice with the concept of lists. Your task is to:
+
+    #step 1: create an empty list named beatles;
+    #step 2: use the append() method to add the following members of the band to the list: John Lennon, Paul McCartney, and George Harrison;
+    #step 3: use the for loop and the append() method to prompt the user to add the following members of the band to the list: Stu Sutcliffe, and Pete Best;
+    #step 4: use the del instruction to remove Stu Sutcliffe and Pete Best from the list;
+    #step 5: use the insert() method to add Ringo Starr to the beginning of the list.
+
+
+#Step1
+beatles = []
+
+#Step2
+beatles.append("John Lennon")
+beatles.append("Paul McCartney")
+beatles.append("George Harrison")
+print(beatles)
+ 
+#Step3
+member1 = "Stu Sutcliffe"
+member2 = "Pete Best"
+
+for i in beatles:
+    beatles.append(member1)
+    beatles.append(member2)
+    
+    print(beatles)
+    break
+
+#Step4
+del beatles[4]
+print(beatles)
+
+del beatles[3]
+print(beatles)
+
+#Step5
+beatles.insert(0, "Ringo Starr")
+print(beatles)
+print("The Fab", len(beatles))
+
+
+
+
+
+
+
+#----------------------
+#This is a code I created for some facebook friends to learn more about python.
+#----------------------
+
+#print("5-2")
+print(5-2)
+sum = 5 * 10
+
+name = "Benito "
+lastname = "Juárez"
+print(name + lastname)
+
+name = "Michael "
+lastname = "Jackson"
+print(name + lastname)
+
+firstname1 = "Stevie "
+lastname1 = "Wonder"
+fullname = lastname1 + firstname1
+print(fullname)
+
+#This is a code I created for some facebook friends to learn more about python.
