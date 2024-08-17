@@ -22,7 +22,7 @@ print(areacirculo)
 
 #****************************************************************
 
-#Ejercicio1 conversor de dólares a euros
+#Ejercicio1 conversor de dólares a euros - convert Dollars to Euros
 
 dolar = float(input("Ingrese cantidad en dólares: "))
 tasaeuro = 0.91
@@ -30,7 +30,65 @@ total = dolar * tasaeuro
 
 print(total)
 
-********************************************************
+#*****************************************************************
+#Obtener nota final - Get final grade
+
+nota1 = 7.0
+nota2 = 9.0
+nota3 = 5.0
+notafinal = 8.0
+trabajofinal = 10.0
+
+#calculamos promedios 
+prom3notas = (nota1 + nota2 + nota3)/ 3
+print(prom3notas)
+porcen3notas =  0.45 * prom3notas
+print(porcen3notas)
+
+porcentajenotafinal = 0.30 * notafinal
+print(porcentajenotafinal)
+porcentajetrabfinal = 0.25 * trabajofinal
+print(porcentajetrabfinal)
+notaglobal = porcen3notas + porcentajenotafinal + porcentajetrabfinal
+print(notaglobal)
+
+#****************************************************************** 
+#assign a discount to purchases
+total = float(input("Total de compra: "))
+descuento = 0
+
+if total > 100:
+    descuento = 0.25 * total
+elif total >= 50:
+    descuento = 0.15 * total
+else:
+    descuento = 0
+    
+total_final = total - descuento
+    
+print(f"Total original: ${total:.2f}")
+print(f"Total descuento: ${descuento:.2f}")
+print(f"Total final: ${total_final:.2f}")
+
+#***************************************************************
+#calcula el tiempo en que un auto supere al otro comparando sus velocidades
+
+vel1 = 59
+vel2 = 58
+diferencia = vel1 - vel2
+distancia = 12
+
+print(diferencia)
+
+car = distancia / diferencia
+print(car)
+
+speed = car * 60
+print(speed)
+
+
+
+#*****************************************************************
 
 #programa final
 largo = 498.90
