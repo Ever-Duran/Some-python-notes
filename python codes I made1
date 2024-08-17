@@ -20,6 +20,18 @@ phi = 3.14159
 areacirculo = phi * (radio **2)
 print(areacirculo)
 
+#****************************************************************
+
+#Ejercicio1 conversor de dólares a euros
+
+dolar = float(input("Ingrese cantidad en dólares: "))
+tasaeuro = 0.91
+total = dolar * tasaeuro
+
+print(total)
+
+********************************************************
+
 #programa final
 largo = 498.90
 ancho = 89.57
