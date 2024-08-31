@@ -224,3 +224,6 @@ and
 c = √ a2 + b2 
 
 Can you guess the output of the code?
+
+*****
+You mustn't call a function that has been previously defined.
