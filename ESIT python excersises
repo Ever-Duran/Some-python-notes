@@ -29,8 +29,62 @@ print(sorted(amigos))
 
 #/////////////////////////////////////////////////////////////
 
+#Create a list with 10 random elements  (1-10). Show each element powered to 2 and 3.
+
+numbers = []
+i = 0
+for i in range(10):
+    numbers.append(i + 1)
+print(numbers)
+
+for number in numbers:
+    power2 = number ** 2
+    power3 = number ** 3
+    print(f"number: {number}, Power2: {power2}, Power3: {power3}")
 
 
+#Create a list with at least 5 strings and sort them backwards
+singers = ["Bruce Dickinson", "Rob Halford", "Tilo Wolf", "Paul Stanley", "Fabio Lione", "Thomas Vikstrom", "Christopher Lee"]
+print(singers)
+
+singers2 = singers[:]
+print(sorted(singers2, reverse=True))
+
+
+#Create a program that reads 5 grades that a student obtained (between 0-10).
+#Then, identify them all, the average and the highest and lowest grades.
+
+grades = [7, 6, 9, 10, 10, 9, 9]
+total = 0
+
+for i in grades:
+    total += i
+print(total)
+
+average = total / len(grades)
+print("Average grade: ", average)
+
+print("Highest grade: ", max(grades))
+print("Lowest grade: ", min(grades))
+
+#Create a program that declares a list and fills it with numbers until a negative number is found.
+#Then, print the known elements
+
+numbers = []
+
+while True:
+    entry = int(input("Enter a number: "))
+    try:
+        number = float(entry)
+    except ValueError:
+        print("Invalid entry. Please, enter a number")
+        continue       
+    if number < 0:
+        break
+    numbers.append(number)
+print("The list of numbers you entered: ", numbers)
+
+#///////////////////////////////////////////////////////////
 
 
 
