@@ -1,3 +1,5 @@
+#This are some exercises I had to code for my introduction to programming class
+
 #Create a tuple that contains the name of the plantes and print the 3rd element
 tupla = ("venus", "mercurio", "marte", "tierra", "saturno","neptuno" "jupiter", "pluton", "urano",)
 print(tupla[2])
