@@ -1,15 +1,17 @@
 #This are some exercises I had to code for my introduction to programming class
-
 #Create a tuple that contains the name of the plantes and print the 3rd element
 tupla = ("venus", "mercurio", "marte", "tierra", "saturno","neptuno" "jupiter", "pluton", "urano",)
 print(tupla[2])
 
+#*******************************************************************************
 #create a tuple that contains the days of the week and print the first and last elements
 semana = ("domingo", "lunes", "martes", "miércoles","jueves", "viernes", "sábado",)
 print(semana[0])
 print(semana[6])
 print(len(semana))
 
+
+#*******************************************************************************
 #create a tuple with the numbers from 0 - 10 and get the total additions of all the numbers
 numeros = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9,)
 suma = 0
@@ -19,7 +21,30 @@ for i in numeros:
 print(suma)
 //45
 
+#*******************************************************************************
 
 #Create a tuple of your friend's names and sorted alfabetically
 amigos = ("Hector", "Kevin", "Jose", "Gamliel", "Adolfo",)
 print(sorted(amigos))
+
+#/////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
