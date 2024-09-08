@@ -143,4 +143,20 @@ print("These are the albums we currently have", albums)
 
 
 #///////////////////
+#Create a program that combines two dictionaries.
+playlist1 = {
+    "Iron Maiden" : "Caught Some Where in Time",
+    "Iron Maiden" : "Two minutes to midnight",
+    "London After Midnight" : "Sacrifice",
+    "Danzig" : "Mother",
+    "Alice in Chains" : "Them bones",
+    }
 
+
+print(playlist1)
+
+playlist2 = eval(input("Enter 2 songs you like: "))
+playlist1.update(playlist2)
+print(playlist1)
+
+#/////////////////////////////
