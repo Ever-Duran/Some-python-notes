@@ -108,11 +108,24 @@ print(my_favorite_albums)
 
 
 #///////////////////////
+#Create a program that allows a user to enter a key and look up its value in a dictionary
+capitales = {
+    "Belice" : "Belmopán",
+    "Guatemala" : "Ciudad de Guatemala",
+    "El Salvador" : "San Salvador",
+    "Honduras" : "Tegucigalpa",
+    "Nicaragua" : "Managua",
+    "Costa Rica" : "San José",
+    "Panamá" : "Ciudad de Panamá"
+    }
+
+print(capitales)
+print(capitales["Guatemala"])
+
+print(capitales[(str(input("Ingresa el nombre de un pais de Centro América: ")))])
 
 
-
-
-
+#/////////////////////////////
 
 
 
