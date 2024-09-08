@@ -87,7 +87,7 @@ print("The list of numbers you entered: ", numbers)
 #///////////////////////////////////////////////////////////
 #Sept 07 2024
 
-#Create a program that allows you to add 3 key-values to a dictionnary and prints the full dictionnary
+#Create a program that allows you to add 3 key-values to a dictionary and prints the full dictionnary
 my_favorite_albums = {
     "Iron Maiden" : "Some Where in Time",
     "Nocturnal Depression" : "Dethcade",
@@ -107,7 +107,7 @@ my_favorite_albums.update({
 print(my_favorite_albums)
 
 
-
+#///////////////////////
 
 
 
