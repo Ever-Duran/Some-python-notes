@@ -85,9 +85,25 @@ while True:
 print("The list of numbers you entered: ", numbers)
 
 #///////////////////////////////////////////////////////////
+#Sept 07 2024
+
+#Create a program that allows you to add 3 key-values to a dictionnary and prints the full dictionnary
+my_favorite_albums = {
+    "Iron Maiden" : "Some Where in Time",
+    "Nocturnal Depression" : "Dethcade",
+    "Nargaroth" : "Jahrezeiten",
+    "London After Midnight" : "Your best nightmare",
+    "Slayer" : "God hates us all"
+    }
 
 
+print(my_favorite_albums)
+my_favorite_albums.update({
+    "Rata Blanca" : "Rosas, espadas y magos",
+    "Helloween" : "Keeper of the seven keys"
+    })
 
+print(my_favorite_albums)
 
 
 
