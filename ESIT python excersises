@@ -146,7 +146,7 @@ print("These are the albums we currently have", albums)
 #Create a program that combines two dictionaries.
 playlist1 = {
     "Iron Maiden" : "Caught Some Where in Time",
-    "Iron Maiden" : "Two minutes to midnight",
+    "Iron Maiden2" : "Two minutes to midnight",
     "London After Midnight" : "Sacrifice",
     "Danzig" : "Mother",
     "Alice in Chains" : "Them bones",
