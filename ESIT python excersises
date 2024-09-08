@@ -100,7 +100,8 @@ my_favorite_albums = {
 print(my_favorite_albums)
 my_favorite_albums.update({
     "Rata Blanca" : "Rosas, espadas y magos",
-    "Helloween" : "Keeper of the seven keys"
+    "Helloween" : "Keeper of the seven keys",
+    "The Doors" : "The Best of The Doors"
     })
 
 print(my_favorite_albums)
