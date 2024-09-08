@@ -127,8 +127,20 @@ print(capitales[(str(input("Ingresa el nombre de un pais de Centro América: "))
 
 #/////////////////////////////
 
+#Create a program that allows a user to delete an element from a dictionary by entering the key.
+#Then print the updated dictionary.
+albums = {
+    "Iron Maiden" : "Some Where in Time",
+    "Nocturnal Depression" : "Dethcade",
+    "Nargaroth" : "Jahrezeiten",
+    "London After Midnight" : "Your best nightmare",
+    "Slayer" : "God hates us all"
+    }
+
+print(albums)
+del(albums[(str(input("Enter the name of a band you dislike so the album is removed: ")))])
+print("These are the albums we currently have", albums)
 
 
-
-
+#///////////////////
 
