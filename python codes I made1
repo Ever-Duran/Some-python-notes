@@ -95,3 +95,15 @@ largo = 498.90
 ancho = 89.57
 perimetro = (largo * 2) + (ancho * 2)
 print(perimetro)
+
+
+#***********
+#Countdown
+number = int(input("Ingresa un número para la cuenta regresiva: "))
+print(number)
+i = 0
+
+while number > 0:
+    number = number - 1
+    print(number)
+    
