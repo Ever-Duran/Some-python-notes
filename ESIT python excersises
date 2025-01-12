@@ -160,3 +160,11 @@ playlist1.update(playlist2)
 print(playlist1)
 
 #/////////////////////////////
+#01/11/2025
+#The way to control exceptions is grouping them in 2 blocks
+#try: it contains the code that may have an exception
+#catch: it contains the code to execute in case of exception.
+#finally: it allows to execute a code in case there's an exception or not.
+
+
+
