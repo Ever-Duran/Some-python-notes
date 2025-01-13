@@ -1,1 +1,37 @@
+#/////////////////////////////
+#01/11/2025
+#The way to control exceptions is grouping them in 2 blocks
+#try: it contains the code that may have an exception
+#catch: it contains the code to execute in case of exception.
+#finally: it allows to execute a code in case there's an exception or not.#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+#Ejemplo de lanzamientos de excepciones
+def revisando_numero_positivo(numero):
+    if numero < 0:
+        raise ValueError("El número no puede ser negativo")
+    return True
+
+try:
+    revisando_numero_positivo(-5)
+except ValueError as esit:
+    print(esit)
+
+#************************
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+#Ejemplo de lanzamientos de excepciones
+def revisando_numero_positivo(numero):
+    if numero < 0:
+        raise ValueError("El número no puede ser negativo")
+    return True
+
+try:
+    revisando_numero_positivo(-5)
+except ValueError as esit:
+    print(esit)
+
+
+
+
+
 
