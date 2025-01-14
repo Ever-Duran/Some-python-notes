@@ -52,7 +52,33 @@ def function_aporte2(): #Definimos la function aporte2
     except ZeroDivisionError: #Utilizamos la excepción ZeroDivisionError
         print("Error capturado en function_aporte2")
         
-ffunction_aporte2() # Mandamos a llamar a la function_aporte2()
+function_aporte2() # Mandamos a llamar a la function_aporte2()
 
+#*******************
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+#
+#Excepción definida por el usuario
+#
 
+class Error(Exception):
+    """Clase base para excepciones en el módulo."""
+    pass
+class EntradaError(Error):
+    """Excepción lanzada por errores en las entradas.
+Atributos:
+expresión -- expresión de entrada en la que ocurre el error
+mensaje -- explicación del error"""
+    
+def __init__(self, expresion, mensaje):
+    self.expresion = expresion
+    self.mensaje = mensaje
+    
+class TransicionError(Error):
+    """Lanzada cuando una operación intenta una transición de estado no
+permitida.
+Atributos:
+previo -- estado al principio de la transición
+siguiente -- nuevo estado intentado
+mensaje -- explicación de por qué la transición no está permitida"""
 
