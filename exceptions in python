@@ -31,7 +31,28 @@ except ValueError as esit:
     print(esit)
 
 
+#***************
+try:
+    #intentemos dividir por cero
+    result = 10/0
+except ZeroDivisionError:
+    #Capturamos la excepción específica y gestionamos el error
+    print("No se puede dividir por cero")
 
+#******************
+
+#Propagación de excepciones en Python
+def function_aporte1(): #Definimos la function aporte1
+    return 50 / 0 #Intentamos dividir el número 50 entre 0, teniendo en
+                  #cuenta que esto no se puede, por lo tanto se aplica la excepción
+
+def function_aporte2(): #Definimos la function aporte2
+    try:
+        function_aporte1()
+    except ZeroDivisionError: #Utilizamos la excepción ZeroDivisionError
+        print("Error capturado en function_aporte2")
+        
+ffunction_aporte2() # Mandamos a llamar a la function_aporte2()
 
 
 
