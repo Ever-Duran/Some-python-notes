@@ -82,3 +82,17 @@ previo -- estado al principio de la transición
 siguiente -- nuevo estado intentado
 mensaje -- explicación de por qué la transición no está permitida"""
 
+#************
+def divide(x, y):
+	try:
+	    return x / y
+	except (ZeroDivisionError, TypeError):
+	    print("Error with input arguments.")
+	else:
+	    return z
+
+
+
+
+
+
