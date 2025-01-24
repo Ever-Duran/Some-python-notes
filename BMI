@@ -1,0 +1,14 @@
+#BMI
+height = float(input("Enter your height :"))
+weight = float(input("Enter your weight : "))
+bmi = weight / height ** 2
+print("Your BMI is ", bmi)
+
+def ver(bmi):
+    if bmi < 18.5 :
+        return print("Low weight")
+    elif bmi >= 18.5:
+        return print("Normal weight")
+    elif bmi >= 25:
+        return print("Overweight")
+ver(bmi)
