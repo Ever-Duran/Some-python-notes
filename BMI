@@ -12,3 +12,32 @@ def ver(bmi):
     elif bmi >= 25:
         return print("Overweight")
 ver(bmi)
+
+#*******************
+#BMI with exceptions
+#BMI
+try: 
+    weight = float(input("Enter your weight : "))
+    height = float(input("Enter your height : "))
+    
+    if height == 0:
+        raise ValueError("Height cannot be zero! Please, enter a valid height.")
+    
+    bmi = weight / height ** 2
+    print("Your BMI is: ", round(bmi, 2))
+
+    def ver(bmi):
+        if bmi < 18.5:
+            print("Low weight")
+        elif 18.5 <= bmi < 25:
+            print("Normal weight")
+        elif bmi >= 25:
+            print("Overweight")
+    
+    ver(bmi)
+except ValueError as e:
+    print(e)
+except ZeroDivisionError:
+    print("Height cannot be zero. Please provide a valid height.")
+except Exception as e:
+    print(f"An error occurred: {e}")
